@@ -27,7 +27,7 @@ El script funciona bajo un principio donde **Bash es el Director** y **la IA es 
 Necesitas tener instaladas tres herramientas estándar en tu máquina:
 * **Git** (Para el control de versiones y rollbacks).
 * **Python 3** (Para el entorno virtual del agente orquestador `aider`).
-* **Ollama** (Para ejecutar el modelo de IA localmente. Se recomienda tener descargado el modelo ejecutando: `ollama run qwen2.5-coder:7b`).
+* **Ollama** (Para ejecutar el modelo de IA localmente. Se recomienda tener descargado el modelo ejecutando: `ollama run llama3.1:8`).
 
 ## 🚀 Guía de Uso Rápido
 
