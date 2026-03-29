@@ -4,7 +4,7 @@ set -e
 # ==============================================================================
 # ⚙️ ZONA DE CONFIGURACIÓN
 # ==============================================================================
-MODELO_LLM="ollama/qwen2.5-coder:7b"
+MODELO_LLM="ollama/llama3.1:8"
 ARCHIVOS_OBJETIVO="reycom.sh"
 COMANDO_TEST="./reycom.sh client 'Gabriel Paniagua' --quick"
 PRESUPUESTO=10
