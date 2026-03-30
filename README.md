@@ -35,11 +35,12 @@ Necesitas tener instaladas tres herramientas estándar en tu máquina:
 Clona este repositorio o copia el archivo `init_lab.sh` en la misma carpeta donde tienes el script o código que deseas mejorar.
 
 ### Paso 2: Configurar la misión
-Abre el archivo `init_lab.sh` con tu editor de texto favorito (Nano, Vim, VSCode) y busca la **ZONA DE CONFIGURACIÓN** en las primeras líneas. Solo necesitas editar estas 5 variables:
+Abre el archivo `init_karpathylab.sh` con tu editor de texto favorito (Nano, Vim, VSCode) y busca la **ZONA DE CONFIGURACIÓN** en las primeras líneas. Solo necesitas editar estas variables:
 
 ```bash
 MODELO_LLM="ollama/qwen2.5-coder:7b"      # El modelo que usará la IA
-ARCHIVOS_OBJETIVO="mi_script.py"          # El archivo que quieres que la IA mejore
-COMANDO_TEST="python3 mi_script.py"       # El comando para probar que el código funciona
+ARCHIVOS_OBJETIVO="mi_script.sh"          # El archivo que quieres que la IA mejore
+COMANDO_TEST="./mi_script.sh --test"      # El comando para probar que el código funciona
 OBJETIVO="Haz que el código se ejecute más rápido usando paralelización." # Qué quieres lograr
 PRESUPUESTO=10                            # Cuántos intentos le darás a la IA
+TIMEOUT_S=300                             # Tiempo máximo por experimento (segundos)
